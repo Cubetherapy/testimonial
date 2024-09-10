@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<title>Testimonial Carousel</title>
+<link rel=stylesheet href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Merriweather:wght@700&display=swap" rel=stylesheet>
+<style>body{font-family:'Roboto',sans-serif;font-weight:300;margin:0;padding:0}.swiper{width:100%;max-width:1000px;margin:20px auto;padding:10px 0}.swiper-slide{background:white;background-size:cover;background-position:center;background-image:url(https://static.wixstatic.com/media/15e659_d68e0dfee628418782007f9ce4ea4767~mv2.jpg);border-radius:10px;color:#333;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;height:400px;box-sizing:border-box;transition:box-shadow .3s ease-in-out,transform .3s ease-in-out,opacity .3s ease;opacity:.5}.swiper-slide-active{opacity:1;transform:scale(1.1)}.swiper-slide:hover{box-shadow:0 25px 50px -12px rgba(0,0,0,0.25);transform:scale(1.03)}blockquote{font-family:'Avenir';font-size:1.2rem;color:white;line-height:1.6;margin:auto}p{font-size:1rem;color:white;margin-top:15px}.swiper-pagination{bottom:10px}.swiper-pagination-bullet{background:#bbb;opacity:.7}.swiper-pagination-bullet-active{background:#007bff}</style>
+</head>
+<body>
+<div class="swiper mySwiper">
+<div class=swiper-wrapper>
+<div class=swiper-slide>
+<blockquote>"Cube Therapy Billing provides more than just billing services; they deliver peace of mind. Their meticulous attention to detail has resulted in a 95% first-pass claim acceptance rate for us."</blockquote>
+<p>- April, Founder & CEO from CA</p>
+</div>
+<div class=swiper-slide>
+<blockquote>"Working with Cube Therapy Billing has empowered our clinic with cutting-edge technology and top-notch expertise. They customized solutions that increased our billing efficiency by over 40%."</blockquote>
+<p>- Ani, Founder & CEO from CA</p>
+</div>
+<div class=swiper-slide>
+<blockquote>"Cube Therapy Billing has been a lifeline for our rapidly growing practice. Their scalable solutions have seamlessly adapted to our needs, leading to a 50% reduction in administrative workload and a 35% increase in patient capacity."</blockquote>
+<p>- Melissa, CEO from NJ</p>
+</div>
+<div class=swiper-slide>
+<blockquote>"The efficiency of Cube Therapy Billing's services has revolutionized how we handle our finances. With their help, we've reduced overhead costs by 20% and improved patient satisfaction dramatically."</blockquote>
+<p>- Mike, Office Manager from NY</p>
+</div>
+<div class=swiper-slide>
+<blockquote>"Cube Therapy Billing’s proactive support has not only enhanced our billing processes but also maintained a 98% accuracy rate in claims processing, which is essential for our clinic's efficiency."</blockquote>
+<p>- Sarah, Founder & CEO from TX</p>
+</div>
+<div class=swiper-slide>
+<blockquote>"Thanks to Cube Therapy Billing, our revenue has increased by 40% within six months. Their detailed reports and responsive service make them a vital part of our financial strategy."</blockquote>
+<p>- James, Founder from WA</p>
+</div>
+<div class=swiper-slide>
+<blockquote>"Implementing Cube Therapy Billing's solutions has allowed us to streamline our operations and focus more on providing exceptional patient care while leaving the complex billing to the experts."</blockquote>
+<p>- Emma, Practice Manager from FL</p>
+</div>
+<div class=swiper-slide>
+<blockquote>"Our partnership with Cube Therapy Billing has transformed our practice by optimizing billing processes and increasing our operational transparency, leading to a 60% improvement in financial management."</blockquote>
+<p>- Olivia, CEO from CA</p>
+</div>
+</div>
+<div class=swiper-pagination></div>
+</div>
+<script src=https://unpkg.com/swiper/swiper-bundle.min.js></script>
+<script>var swiper=new Swiper(".mySwiper",{slidesPerView:1,spaceBetween:30,loop:true,centeredSlides:true,pagination:{el:".swiper-pagination",clickable:true},autoplay:{delay:2500,disableOnInteraction:false},breakpoints:{640:{slidesPerView:1},768:{slidesPerView:2},1024:{slidesPerView:3}}});</script>
+</body>
+</html>
